@@ -51,6 +51,8 @@ using (var scope = app.Services.CreateScope())
     await dbContext.Database.EnsureCreatedAsync();
 }
 
+app.MapGet("/hello", () => "Hello World!");
+
 app.UseCors("DevCorsPolicy");
 
 app.MapGraphQL();
