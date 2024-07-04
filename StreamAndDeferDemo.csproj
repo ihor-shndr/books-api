@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -12,8 +12,8 @@
       <PackageReference Include="HotChocolate.Data" Version="13.9.6" />
       <PackageReference Include="HotChocolate.Types.Analyzers" Version="13.9.6" />
       <PackageReference Include="HotChocolate.Types.Json" Version="13.9.6" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.6" />
     </ItemGroup>
 	
 </Project>
